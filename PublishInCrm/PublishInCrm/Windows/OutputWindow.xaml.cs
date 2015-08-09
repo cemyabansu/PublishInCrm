@@ -181,29 +181,18 @@ namespace CemYabansu.PublishInCrm.Windows
             Dispatcher.Invoke(() => progressRing.IsActive = isActive);
         }
 
-        private void ShowLogs_Click(object sender, RoutedEventArgs e)
+        private void ShowDetails_Click(object sender, RoutedEventArgs e)
         {
-            DoubleAnimation da;
-            if (!isExpended)
+            if (ShowDetailsButton.IsChecked == true)
             {
                 SetVisiblityToUiElemet(OutputTextBox, Visibility.Visible);
-                isExpended = true;
                 this.Height += 180;
-
-                da = new DoubleAnimation(0, 180, new Duration(TimeSpan.FromSeconds(0.5)));
             }
             else
             {
                 SetVisiblityToUiElemet(OutputTextBox, Visibility.Hidden);
-                isExpended = false;
                 this.Height -= 180;
-
-                da = new DoubleAnimation(180, 0, new Duration(TimeSpan.FromSeconds(0.5)));
             }
-            var rt = new RotateTransform();
-            ShowLogs.RenderTransform = rt;
-            ShowLogs.RenderTransformOrigin = new Point(0.5, 0.5);
-            rt.BeginAnimation(RotateTransform.AngleProperty, da);
         }
     }
 }
