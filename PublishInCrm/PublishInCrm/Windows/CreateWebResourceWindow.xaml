@@ -1,0 +1,23 @@
+﻿<Window x:Class="CemYabansu.PublishInCrm.Windows.CreateWebResourceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CreateWebResourceWindow" Height="362.766" Width="434.043">
+    <Grid>
+        <Label Content="Create WebResource" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="48" Width="211" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="123,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <Label Content="Name&#x9;&#x9;:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,63,0,0" Width="108"/>
+        <TextBox x:Name="DisplayNameTextBox" HorizontalAlignment="Left" Height="23" Margin="123,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" />
+        <Label Content="Display Name&#x9;:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,94,0,0" Width="108"/>
+        <TextBox x:Name="DescriptionTextBox" HorizontalAlignment="Left" Height="76" Margin="123,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" />
+        <Label Content="Description&#x9;:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,125,0,0" Width="108"/>
+        <Label Content="Type&#x9;&#x9;:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,209,0,0" Width="108"/>
+        <ComboBox x:Name="TypeComboBox" HorizontalAlignment="Left" Margin="123,213,0,0" VerticalAlignment="Top" Width="271" Text="Choose Type" >
+            <ComboBoxItem Tag="1">Html(1)</ComboBoxItem>
+            <ComboBoxItem Tag="2">Css(2)</ComboBoxItem>
+            <ComboBoxItem Tag="3">Javascript(3)</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="CreateButton" Content="Create" HorizontalAlignment="Left" Margin="10,278,0,0" VerticalAlignment="Top" Width="122" Height="36" Click="CreateButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="137,278,0,0" VerticalAlignment="Top" Width="123" Height="36" Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>
