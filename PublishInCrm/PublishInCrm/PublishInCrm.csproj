@@ -180,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Resource Include="Resources\Entypo.ttf" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -196,13 +197,19 @@
     <None Include="Resources\Images.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
     <Resource Include="Resources\arrow-down.png" />
     <Resource Include="Resources\arrow-up.png" />
     <Resource Include="Resources\done.png" />
     <Resource Include="Resources\error.png" />
+    <Resource Include="Resources\Entypo-license.txt" />
     <Content Include="Resources\Package.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Windows\CreateWebResourceWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

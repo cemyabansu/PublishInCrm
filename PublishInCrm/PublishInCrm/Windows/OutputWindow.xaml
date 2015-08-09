@@ -1,8 +1,16 @@
-﻿<Window x:Class="CemYabansu.PublishInCrm.Windows.OutputWindow"
+﻿<controls:MetroWindow x:Class="CemYabansu.PublishInCrm.Windows.OutputWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        Title="OutputWindow" Height="287.478" Width="447.597">
+        BorderThickness="2"
+        Title="OutputWindow" Height="300" Width="450" ResizeMode="CanMinimize" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/PublishInCrm;component/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Grid Margin="0,0,0,-180">
         <Label Content="Publishing Details" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="37" Width="211" FontSize="20" FontWeight="Bold"/>
         <!--Connection Status-->
@@ -43,4 +51,4 @@
         </Button>
         <TextBox x:Name="OutputTextBox" Visibility="Collapsed" HorizontalAlignment="Left" Height="153" Margin="10,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410"/>
     </Grid>
-</Window>
+</controls:MetroWindow>
