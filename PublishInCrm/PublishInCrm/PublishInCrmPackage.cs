@@ -26,23 +26,8 @@ using Thread = System.Threading.Thread;
 
 namespace CemYabansu.PublishInCrm
 {
-    /// <summary>
-    /// This is the class that implements the package exposed by this assembly.
-    ///
-    /// The minimum requirement for a class to be considered a valid package for Visual Studio
-    /// is to implement the IVsPackage interface and register itself with the shell.
-    /// This package uses the helper classes defined inside the Managed Package Framework (MPF)
-    /// to do it: it derives from the Package class that provides the implementation of the 
-    /// IVsPackage interface and uses the registration attributes defined in the framework to 
-    /// register itself and its components with the shell.
-    /// </summary>
-    // This attribute tells the PkgDef creation utility (CreatePkgDef.exe) that this class is
-    // a package.
     [PackageRegistration(UseManagedResourcesOnly = true)]
-    // This attribute is used to register the information needed to show this package
-    // in the Help/About dialog of Visual Studio.
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
-    // This attribute is needed to let the shell know that this package exposes some menus.
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [Guid(GuidList.guidPublishInCrmPkgString)]
     public sealed class PublishInCrmPackage : Package
@@ -60,6 +45,8 @@ namespace CemYabansu.PublishInCrm
         {
             Debug.WriteLine(string.Format(CultureInfo.CurrentCulture, "Entering Initialize() of: {0}", this));
             base.Initialize();
+
+            
 
             // Add our command handlers for menu (commands must exist in the .vsct file)
             OleMenuCommandService mcs = GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
@@ -138,8 +125,15 @@ namespace CemYabansu.PublishInCrm
             if (isFromSolutionExplorer)
             {
                 var selectedItems = dte.SelectedItems;
-                return (from SelectedItem selItem in selectedItems select selItem.ProjectItem.FileNames[0]).ToList();
+                List<string> list = new List<string>();
+                foreach (SelectedItem selItem in selectedItems)
+                {
+                    selItem.ProjectItem.Save();
+                    list.Add(selItem.ProjectItem.FileNames[0]);
+                }
+                return list;
             }
+            dte.ActiveDocument.Save();
             return new List<string> { dte.ActiveDocument.FullName };
         }
 
