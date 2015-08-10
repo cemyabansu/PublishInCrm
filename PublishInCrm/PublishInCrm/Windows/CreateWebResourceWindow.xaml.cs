@@ -15,7 +15,7 @@ namespace CemYabansu.PublishInCrm.Windows
             InitializeComponent();
 
             NameTextBox.Dispatcher.Invoke(new Action(() => NameTextBox.Text = fileName));
-            NameTextBox.Dispatcher.Invoke(new Action(() => NameTextBox.IsEnabled = false));
+            //NameTextBox.Dispatcher.Invoke(new Action(() => NameTextBox.IsEnabled = false));
             DisplayNameTextBox.Dispatcher.Invoke(new Action(() => DisplayNameTextBox.Text = fileName));
 
             if (Path.GetExtension(fileName) == ".js")

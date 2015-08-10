@@ -20,12 +20,12 @@ namespace CemYabansu.PublishInCrm.Windows
         private static string _errorImagePath = @"..\Resources\error.png";
         private static string _doneImagePath = @"..\Resources\done.png";
 
-        private CurrentStatus _currentStatus;
-
         public OutputWindow()
         {
             InitializeComponent();
         }
+
+        private CurrentStatus _currentStatus;
 
         public void AddLineToTextBox(string text)
         {
