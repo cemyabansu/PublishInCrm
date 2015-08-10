@@ -4,7 +4,7 @@
         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         BorderBrush="{DynamicResource AccentColorBrush}"
         BorderThickness="1"
-        Title="OutputWindow" Height="286" Width="450" ResizeMode="CanMinimize" >
+        Title="Output Window" Height="274" Width="437" ResizeMode="CanMinimize" >
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -41,7 +41,7 @@
         <!--Error Line-->
         <Image x:Name="ErrorImage" HorizontalAlignment="Left" Height="26" Margin="10,216,0,0" VerticalAlignment="Top" Width="26" Source="/PublishInCrm;component/Resources/error.png" Visibility="Hidden" />
         <Label x:Name="ErrorLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,216,0,0" Width="338" Visibility="Visible"/>
-        <ToggleButton x:Name="ShowDetailsButton"  HorizontalAlignment="Left" Margin="386,202,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="ShowDetails_Click"
+        <ToggleButton x:Name="ShowDetailsButton"  HorizontalAlignment="Left" Margin="379,192,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="ShowDetails_Click"
               Style="{DynamicResource MetroCircleToggleButtonStyle}">
             <Rectangle Width="20"
                Height="20"
@@ -52,6 +52,6 @@
                 </Rectangle.OpacityMask>
             </Rectangle>
         </ToggleButton>
-        <TextBox x:Name="OutputTextBox" Visibility="Hidden" HorizontalAlignment="Left" Height="161" Margin="10,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420"/>
+        <TextBox x:Name="OutputTextBox" Visibility="Hidden" HorizontalAlignment="Left" Height="161" Margin="10,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409"/>
     </Grid>
 </controls:MetroWindow>

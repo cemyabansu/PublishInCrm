@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using MahApps.Metro.Controls;
 
@@ -19,11 +17,8 @@ namespace CemYabansu.PublishInCrm.Windows
             Publishing
         }
 
-        private bool isExpended = false;
         private static string _errorImagePath = @"..\Resources\error.png";
         private static string _doneImagePath = @"..\Resources\done.png";
-        private static string _upImagePath = @"..\Resources\arrow-up.png";
-        private static string _downImagePath = @"..\Resources\arrow-down.png";
 
         private CurrentStatus _currentStatus;
 
@@ -44,7 +39,7 @@ namespace CemYabansu.PublishInCrm.Windows
 
         private void AddNewLine(string text)
         {
-            OutputTextBox.AppendText(text + System.Environment.NewLine);
+            OutputTextBox.AppendText(text + Environment.NewLine);
         }
 
         public void SetConnectionLabelText(string text, bool isSucceed)
@@ -186,12 +181,12 @@ namespace CemYabansu.PublishInCrm.Windows
             if (ShowDetailsButton.IsChecked == true)
             {
                 SetVisiblityToUiElemet(OutputTextBox, Visibility.Visible);
-                this.Height += 180;
+                Height += 180;
             }
             else
             {
                 SetVisiblityToUiElemet(OutputTextBox, Visibility.Hidden);
-                this.Height -= 180;
+                Height -= 180;
             }
         }
     }
