@@ -2,8 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="7b714bf0-f61d-4bd7-abe7-2673965a0821" Version="1.0" Language="en-US" Publisher="CemYabansu" />
-    <DisplayName>PublishInCrm</DisplayName>
-    <Description>Update and publish webresources in Dynamics CRM using Visual Studio</Description>
+    <DisplayName>Update and Publish Webresources In CRM</DisplayName>
+    <Description xml:space="preserve">Update and publish webresources in Dynamics CRM using Visual Studio.</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />

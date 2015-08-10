@@ -198,9 +198,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\WindowsIcons-license.txt" />
-    <Resource Include="Resources\arrow-down.png" />
-    <Resource Include="Resources\arrow-up.png" />
-    <Resource Include="Resources\done.png" />
+    <Content Include="Resources\done.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Resource Include="Resources\error.png" />
     <Resource Include="Resources\Entypo-license.txt" />
     <Content Include="Resources\Package.ico" />
