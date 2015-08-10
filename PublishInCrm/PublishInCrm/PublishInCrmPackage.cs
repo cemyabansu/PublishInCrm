@@ -161,6 +161,7 @@ namespace CemYabansu.PublishInCrm
         /// Gets the connection string and return it. If it doesn't exist, returns String.Empty
         /// </summary>
         /// <param name="projectPath">Path of project file.</param>
+
         private string GetConnectionString(string projectPath)
         {
             if (Path.HasExtension(projectPath))

@@ -7,13 +7,3 @@ C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYab
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\PublishInCrm.pkgdef
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\extension.vsixmanifest
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\PublishInCrm.pdb
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\PublishInCrm.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\MahApps.Metro.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\Microsoft.Crm.Sdk.Proxy.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\Microsoft.Xrm.Client.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\Microsoft.Xrm.Sdk.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\System.Windows.Interactivity.dll
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\PublishInCrm.pkgdef
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\extension.vsixmanifest
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\Resources\\done.png
-C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\Update and Publish Webresources In CRM\1.0\\PublishInCrm.pdb
