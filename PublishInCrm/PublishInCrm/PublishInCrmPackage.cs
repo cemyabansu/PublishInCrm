@@ -381,7 +381,7 @@ namespace CemYabansu.PublishInCrm
             {
                 webResourcesNames[i] = toBePublishedWebResources[i].Name;
             }
-            AddLineToOutputWindow(string.Format("{0} published.", string.Join(", ", webResourcesNames)));
+            AddLineToOutputWindow(string.Format("Published webresources : \n\t- {0}", string.Join("\n\t- ", webResourcesNames)));
         }
 
         private static EntityCollection WebresourceResult(OrganizationService orgService, string filename)
