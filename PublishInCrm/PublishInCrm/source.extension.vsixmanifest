@@ -4,6 +4,7 @@
     <Identity Id="7b714bf0-f61d-4bd7-abe7-2673965a0821" Version="1.0" Language="en-US" Publisher="CemYabansu" />
     <DisplayName>PublishInCrm</DisplayName>
     <Description>Update and publish webresources in Dynamics CRM using Visual Studio</Description>
+    <Icon>Resources\Publish_32.png</Icon>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />

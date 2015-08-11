@@ -16,30 +16,30 @@
         <Label Content="Publishing Details" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="37" Width="211" FontSize="20" FontWeight="Bold"/>
         <!--Connection Status-->
         <Label x:Name="ConnectionLabel" IsEnabled="False" Content="Connection .." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,52,0,0" Width="387"/>
-        <Image x:Name="ConnectionImage" HorizontalAlignment="Left" Height="26" Margin="10,52,0,0" VerticalAlignment="Top" Width="26" />
+        <Image x:Name="ConnectionImage" HorizontalAlignment="Left" Height="24" Margin="10,52,0,0" VerticalAlignment="Top" Width="24" />
 
         <!--Gettin Webresources Status-->
         <Label x:Name="GettingWebresourcesLabel" Content="Getting webresoruces .." IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,83,0,0" Width="387"/>
-        <Image x:Name="GettingWebresourcesImage" HorizontalAlignment="Left" Height="26" Margin="10,83,0,0" VerticalAlignment="Top" Width="26" />
+        <Image x:Name="GettingWebresourcesImage" HorizontalAlignment="Left" Height="24" Margin="10,83,0,0" VerticalAlignment="Top" Width="24" />
         <controls:ProgressRing x:Name="GettingWebresourcesProgressRing" IsActive="False" Margin="10,83,0,0" Height="26" Width="26" HorizontalAlignment="Left" VerticalAlignment="Top" IsLarge="False"  />
 
         <!--Creating/Updating Status-->
         <Label x:Name="CreateLabel" Content="Creating non-existing webresources.." IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,114,0,0" Width="387"/>
-        <Image x:Name="CreateImage" HorizontalAlignment="Left" Height="26" Margin="10,114,0,0" VerticalAlignment="Top" Width="26" />
+        <Image x:Name="CreateImage" HorizontalAlignment="Left" Height="24" Margin="10,114,0,0" VerticalAlignment="Top" Width="24" />
         <controls:ProgressRing x:Name="CreateProgressRing" IsActive="False" Margin="10,114,0,0" Height="26" Width="26" HorizontalAlignment="Left" VerticalAlignment="Top" IsLarge="False"  />
         <!--Updating Status-->
         <Label x:Name="UpdateLabel" Content="Updating webresources.." IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,145,0,0" Width="387"/>
-        <Image x:Name="UpdateImage" HorizontalAlignment="Left" Height="26" Margin="10,145,0,0" VerticalAlignment="Top" Width="26" />
+        <Image x:Name="UpdateImage" HorizontalAlignment="Left" Height="24" Margin="10,145,0,0" VerticalAlignment="Top" Width="24" />
         <controls:ProgressRing x:Name="UpdateProgressRing" IsActive="False" Margin="10,145,0,0" Height="26" Width="26" HorizontalAlignment="Left" VerticalAlignment="Top" IsLarge="False"  />
 
 
         <!--Publishing Status-->
         <Label x:Name="PublishLabel" Content="Publishing .." IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="43,176,0,0" Width="387"/>
-        <Image x:Name="PublishImage" HorizontalAlignment="Left" Height="26" Margin="10,176,0,0" VerticalAlignment="Top" Width="26" />
+        <Image x:Name="PublishImage" HorizontalAlignment="Left" Height="24" Margin="10,176,0,0" VerticalAlignment="Top" Width="24" />
         <controls:ProgressRing x:Name="PublishProgressRing" IsActive="False" Margin="10,176,0,0" Height="26" Width="26" HorizontalAlignment="Left" VerticalAlignment="Top" IsLarge="False"  />
 
         <!--Error Line-->
-        <Image x:Name="ErrorImage" HorizontalAlignment="Left" Height="26" Margin="8,207,0,0" VerticalAlignment="Top" Width="26" Source="/PublishInCrm;component/Resources/error.png" Visibility="Hidden" />
+        <Image x:Name="ErrorImage" HorizontalAlignment="Left" Height="24" Margin="8,207,0,0" VerticalAlignment="Top" Width="24" Source="/PublishInCrm;component/Resources/error.png" Visibility="Hidden" />
         <Label x:Name="ErrorLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,207,0,0" Width="338" Visibility="Visible"/>
         <ToggleButton x:Name="ShowDetailsButton"  HorizontalAlignment="Left" Margin="379,192,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="ShowDetails_Click"
               Style="{DynamicResource MetroCircleToggleButtonStyle}">

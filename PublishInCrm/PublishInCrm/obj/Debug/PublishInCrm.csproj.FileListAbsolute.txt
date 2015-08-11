@@ -36,6 +36,7 @@ E:\GitHub\PublishInCrm2013\PublishInCrm\PublishInCrm\obj\Debug\PublishInCrm.pdb
 E:\GitHub\PublishInCrm2013\PublishInCrm\PublishInCrm\obj\Debug\PublishInCrm.pkgdef
 E:\GitHub\PublishInCrm2013\PublishInCrm\PublishInCrm\obj\Debug\PublishInCrm.latest.pkgdef
 E:\GitHub\PublishInCrm2013\PublishInCrm\PublishInCrm\obj\Debug\extension.vsixmanifest
+E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\Resources\Publish_32.png
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\PublishInCrm.dll
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\PublishInCrm.pdb
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\PublishInCrm.pkgdef
@@ -44,6 +45,7 @@ E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\extension.vsixm
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\MahApps.Metro.dll
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\System.Windows.Interactivity.dll
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\bin\Debug\MahApps.Metro.xml
+E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\obj\Debug\PublishInCrm.csprojResolveAssemblyReference.cache
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\obj\Debug\PublishInCrm.csproj.ResolveComReference.cache
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\obj\Debug\Resources\Icons.baml
 E:\Github\PublishInCrmVs2013\PublishInCrm\PublishInCrm\obj\Debug\Windows\CreateWebResourceWindow.baml

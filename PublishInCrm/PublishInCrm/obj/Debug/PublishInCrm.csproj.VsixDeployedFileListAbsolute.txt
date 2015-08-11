@@ -6,4 +6,5 @@ C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYab
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\System.Windows.Interactivity.dll
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\PublishInCrm.pkgdef
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\extension.vsixmanifest
+C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\Resources\\Publish_32.png
 C:\Users\cyabansu\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\CemYabansu\PublishInCrm\1.0\\PublishInCrm.pdb
