@@ -343,11 +343,6 @@ namespace CemYabansu.PublishInCrm.Windows
             Dispatcher.Invoke(() => OrganizationsComboBox.IsEnabled = isEnable);
         }
 
-        private void SetEnableSaveButton(bool isEnable)
-        {
-            Dispatcher.Invoke(() => SaveButton.IsEnabled = isEnable);
-        }
-
         private void SetEnableToUIElement(UIElement button, bool isEnable)
         {
             Dispatcher.Invoke(() => button.IsEnabled = isEnable);
