@@ -3,7 +3,9 @@
     <Identity Id="7b714bf0-f61d-4bd7-abe7-2673965a0821" Version="1.0" Language="en-US" Publisher="CemYabansu" />
     <DisplayName>Update and Publish Webresources in CRM with VS</DisplayName>
     <Description xml:space="preserve">Update and publish webresources(html, js, css) in Dynamics CRM using Visual Studio.</Description>
+    <MoreInfo>https://tottotech.wordpress.com/2015/07/16/updating-and-publishing-webresources-directly-from-visual-studio/</MoreInfo>
     <Icon>Resources\Publish_32.png</Icon>
+    <Tags>CRM, Publish webresources, update webresources, webresources</Tags>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
