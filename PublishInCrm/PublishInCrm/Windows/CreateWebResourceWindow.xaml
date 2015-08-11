@@ -28,6 +28,5 @@
         </ComboBox>
         <Button x:Name="CreateButton" Content="Create" HorizontalAlignment="Left" Margin="229,257,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="CreateButton_Click"/>
         <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="314,257,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="CancelButton_Click"/>
-
     </Grid>
 </controls:MetroWindow>

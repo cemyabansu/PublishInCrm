@@ -16,6 +16,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using Task = System.Threading.Tasks.Task;
 
+//For login, I used microsoft's code which is in CRM SDK.
 
 namespace CemYabansu.PublishInCrm.Windows
 {

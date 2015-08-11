@@ -48,8 +48,5 @@ namespace CemYabansu.PublishInCrm.Windows
             };
             Close();
         }
-
-
-
     }
 }
