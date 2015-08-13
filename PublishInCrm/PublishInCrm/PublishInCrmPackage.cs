@@ -128,7 +128,14 @@ namespace CemYabansu.PublishInCrm
                 List<string> list = new List<string>();
                 foreach (SelectedItem selItem in selectedItems)
                 {
-                    selItem.ProjectItem.Save();
+                    try
+                    {
+                        selItem.ProjectItem.Save();
+                    }
+                    catch (Exception)
+                    {
+                        // ignored
+                    }
                     list.Add(selItem.ProjectItem.FileNames[0]);
                 }
                 return list;
@@ -219,6 +226,7 @@ namespace CemYabansu.PublishInCrm
                 stopwatch.Start();
                 using (orgService = new OrganizationService(crmConnection))
                 {
+
                     SetConnectionLabelText(string.Format("Connected to : {0}", crmConnection.ServiceUri), _success);
                     AddLineToOutputWindow(string.Format("Connected to : {0}", crmConnection.ServiceUri));
 
